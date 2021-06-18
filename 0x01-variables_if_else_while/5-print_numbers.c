@@ -9,12 +9,12 @@
  */
 int main(void)
 {
-  int w;
+int w;
 
-  for (w = 0 ; w < 10 ; w++)
-    {
-      printf("%d", w);
-    }
-  putchar('\n');
-  return (0);
+for (w = 0 ; w < 10 ; w++)
+{
+printf("%d", w);
+}
+putchar('\n');
+return (0);
 }

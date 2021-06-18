@@ -10,12 +10,12 @@
 
 int main(void)
 {
-  char mirror;
+char mirror;
 
-  for (mirror = 'z' ; mirror >= 'a' ; mirror--)
-    {
-      putchar(mirror);
-    }
-  putchar('\n');
-  return (0);
+for (mirror = 'z' ; mirror >= 'a' ; mirror--)
+{
+putchar(mirror);
+}
+putchar('\n');
+return (0);
 }
