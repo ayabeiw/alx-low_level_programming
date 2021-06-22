@@ -8,8 +8,8 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
+int main (void)
 {
-printf("Holberton\n");
+printf ("Holberton\n");
 return(0);
 }
