@@ -8,7 +8,7 @@
  * Return: Always 0 (Success)
  */
 
-int main () {
+void print_alphabet_x10(void);
 char ch;
 
 for(ch = 97 ; ch <= 122 ; ch++) {
