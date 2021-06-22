@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * main - prints all natural numbers from n to 98
- *
+ * print_to_98 - prints all natural numbers from n to 98
+ * @n - Start Counting fromthis number
  * 
  */
 

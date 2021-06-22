@@ -1,9 +1,10 @@
 #include "holberton.h"
 
 /**
- * main - Prints the 9 times table,
- *
- * 
+ * times_table - Prints the 9 times table,
+ * @num 
+ * @mult
+ * @prod
  */
 
 void times_table(void)
