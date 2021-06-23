@@ -2,8 +2,8 @@
 
 /**
  * add - function that adds two integers and
- * @num1 -First Number
- * @num2 -Second Number
+ * @num1: First Number
+ * @num2: Second Number
  * Return: The result
  */
 
