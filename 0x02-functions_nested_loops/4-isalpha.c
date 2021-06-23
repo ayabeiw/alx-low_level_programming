@@ -1,5 +1,5 @@
 #include "holberton.h"
-int _isalpha(int c)
+
 
 /**
 * _isalpha - Checks for alphabectic Characters
@@ -7,8 +7,7 @@ int _isalpha(int c)
 * Return: Always 0 (Success)
 */
 
-int _isalpha(int c);
-
+int _isalpha(int c)
 {
 if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 return (1);
