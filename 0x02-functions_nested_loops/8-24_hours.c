@@ -1,11 +1,10 @@
 #include "holberton.h"
 
 /**
- * jack_bauer - prints every minute of the day of Jack Bauer 
- *
- * @hour: Time in hours
- * @minute: Time in Min
- */
+* jack_bauer - prints every minute of the day of Jack Bauer 
+* 
+* 
+*/
 
 void jack_bauer(void)
 
