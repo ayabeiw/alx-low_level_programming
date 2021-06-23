@@ -2,9 +2,8 @@
 
 /**
  * print_last_digit - prints the last digit of a number
- *
  * @n: The Digit to be checked
- * return: the last digit of the number
+ * Return: the last digit of the number
  */
 
 int print_last_digit(int n)
