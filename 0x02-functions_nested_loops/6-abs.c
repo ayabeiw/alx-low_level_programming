@@ -5,7 +5,7 @@
  *
  * @n: integer to be computed
  *
- * return: the absolute value
+ * Return: the absolute value
  */
 
 int _abs(int n)
