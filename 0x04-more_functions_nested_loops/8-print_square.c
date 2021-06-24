@@ -5,23 +5,28 @@
  * print_square - draws a square in terminal
  * @size: size of the square
  *
- * Return: void
+ * Return: 0
  */
 
 
 void print_square(int size)
 {
-int i, j;
+int x, y;
 
 if (size <= 0)
-_putchar('\n');
-
-for (i = 0; i < size;
-for (j = 0; j < (size); j++)
 {
-_putchar('#');
-}
 _putchar('\n');
 }
+else
+{
+for (x = 0; x < size; x++)
+{
+for (y = 0; y < size; y++)
+{
+_putchar(35);
+}
 
+_putchar('\n');
+}
+}
 }
