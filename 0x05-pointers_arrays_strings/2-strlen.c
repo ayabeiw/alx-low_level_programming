@@ -1,4 +1,4 @@
-#include "holberton.h"
+"holberton.h"
 
 /**
  * _strlen - returns the length of a string
@@ -6,9 +6,10 @@
  * Return: length of string
  */
 
-int _strlen(const char *str)
+size_t _strlen(const char *str)
 {
-int length = 0;
+
+size_t length = 0;
 
 while (*str++)
 length++;
