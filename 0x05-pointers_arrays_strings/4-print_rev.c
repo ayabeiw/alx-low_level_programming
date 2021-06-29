@@ -5,21 +5,15 @@
  * @s: The string to be printed.
  */
 
-int begin, end, count = 0;
+void print_rev(char *s)
+{
+int len = 0, index;
 
-while (s[count] != '\0')
-count++;
+while (s[index++])
+len++;
 
-end = count - 1;
+for (index = len - 1; index >= 0; index--)
+_putchar(s[index]);
 
-for (begin = 0; begin < count; begin++) {
-r[begin] = s[end];
-end--;
-}
-
-r[begin] = '\0';
-
-printf("%s\n", r);
-
-return 0;
+_putchar('\n');
 }
